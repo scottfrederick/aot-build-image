@@ -1,1 +1,1 @@
-./gradlew bootBuildImage --imageName aot-image-native-jar -P native-image=true
+./gradlew -P native-image=true bootBuildImage --imageName aot-image-native-jar
